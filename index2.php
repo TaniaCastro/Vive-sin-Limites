@@ -52,7 +52,7 @@ text-align:center;
 			color:red;
 		}
 		#bonton-content{
-			color:blueviolet;
+			color:blue;
 			
 		}
 	</style>
