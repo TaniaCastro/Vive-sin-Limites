@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="es"> 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport", content="width=device-width, user-scable=no, initil-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>YO AMO LA MUSICA</title>
-	<link rel="stylesheet" href="public/css/bootstrap.css">
-	<link rel="stylesheet" href="public/css/estilos.css">
 
+	<link rel="stylesheet" href="public/css/bootstrap.css" href="estilos.css">
+	<title>YO AMO LA MUSICA... :) :D </title>
 </head>
 <style>
 		body{
-			background-image: url(public/img/5.jpeg);
+			background-image: url(public/img/9.jpeg);
 		}
 
 		h1{
@@ -33,9 +33,9 @@
 		color: #000;
 		z-index: -1;
 
-		border-bottom: dotted 2px #ccc ;
-		text-align:center; 
-		}
+border-bottom: dotted 2px #ccc ;
+text-align:center; 
+}
 		}
 		a{
 			background-color:lightblue;
@@ -62,49 +62,47 @@
 			 <h1><center>YO AMO LA MUSICA ... :) :D </center></h1></div>
 			 <br>
         </header>
-<div class="container">
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">INICIO</a>
-			</div>
-	
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Videos</a></li>
-					<li><a href="#">Imagnes</a></li>
-				</ul>
-				<form class="navbar-form navbar-left" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">buscador</button>
-				</form>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">mas videos</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mas <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Inicio</a></li>
-							<li><a href="#">Videos</a></li>
-							<li><a href="#">Mas informacion</a></li>
-							<li><a href="#">Mas videos</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<!-- Marca y de palanca quedan agrupados para una mejor visualización en dispositivos móviles -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<ul class="nav navbar-nav">
+			<li class="navbar-brand" href="#">Inicio</a></li>
 		</div>
-	</nav>
-</div>
 
+		<!-- Recoger el enlaces de navegación , formularios y otros contenidos para alternar -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li class="#"><a href="index2.php">Videos</a></li>
+				<li><a href="http://taniacas2011.wix.com/twaniedtjw">Imagnes</a></li>
+			</ul>
+			<form class="navbar-form navbar-left" role="buscar">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="escribir">
+				</div>
+				<button type="buscador" class="btn btn-default">buscador</button>
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="http://taniacas2011.wix.com/twaniedtjw">mas videos</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mas<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="index2.php">Videos</a></li>
+						<li><a href="http://taniacas2011.wix.com/twaniedtjw">Mas informacion</a></li>
+						<li><a href="http://cristiantjw3.wix.com/twanied">Mas videos</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div>
+</nav>
 
 <div id="carousel-id" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
@@ -115,11 +113,11 @@
 	<div class="carousel-inner">
 		<div class="item">
 			<header>
-            <h1><center><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="public/img/3.jpg" height="450" width="1000"></center></h1>
-			</header>
+            <h1><center><img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="public/img/3.jpg" height="450" width="1000"></center></h1>
+        </header>
 			<div class="container">
 				<div class="carousel-caption">
-				<h1>Tokio Hotel</h1>
+					<h1>Tokio Hotel</h1>
 					<p>
 						"Estoy gritando en la cima del mundo!! no me sientes??"</p>
 					<p><a class="btn btn-lg btn-primary" href="#" role="button">Videos</a></p>
@@ -127,7 +125,7 @@
 			</div>
 		</div>
 		<div class="item">
-			<header>
+		<header>
             <h1><center><img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="public/img/1.jpg" height="450" width="1000"></center></h1>
         </header>
 
@@ -164,10 +162,12 @@
 </div>
 
 
-<div class="container">
-	
-	  
-	<div class="row">
+<script src="public/js/jquery-1.12.1.js"></script>
+<script src="public/js/bootstrap.js"></script>
+
+
+
+            <div class="row">
 		<div class="col-md-4">
 			<div class="mi-video">
 				<video autobuffer autoloop loop controls>
@@ -193,8 +193,5 @@
 	</div>
 
 </div>
- 
-	<<script src="public/js/jquery-1.12.1.js"></script>
-	<<script src="public/js/bootstrap.js"></script>
 </body>
 </html>

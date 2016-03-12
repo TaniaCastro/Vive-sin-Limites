@@ -48,11 +48,11 @@ text-align:center;
 			color:white;
 		}
 		#descripcion{
-			background-color: blue;
+			background-color: red;
 			color:red;
 		}
 		#bonton-content{
-			color:red;
+			color:blueviolet;
 			
 		}
 	</style>
